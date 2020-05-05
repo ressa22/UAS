@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/background_ramadan_mubarak_vector_design_set_584340"
+        >
+        <TextView
+
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selasa, 5 Mei"
+            android:fontFamily="casual"
+            android:layout_marginLeft="8dp">
+        </TextView>
+        <TextView
+            android:layout_marginTop="-10dp"
+            android:fontFamily="casual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="12 ramadhan 1441H"
+            android:layout_marginLeft="8dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-35dp"
+            android:layout_marginEnd="15dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="15dp">
+        <ImageView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_view_day_black_24dp"
+            android:layout_marginRight="5dp" />
+
+        <ImageView
+            android:layout_marginTop="-50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_settings_black_24dp"/>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_marginHorizontal="20dp">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="2"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="5dp"
+            android:columnOrderPreserved="false">
+
+            <LinearLayout
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/mosque" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mesjid"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/quran" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Al-qur'an"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/kaaba" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ka'bah"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/rosary" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tashbih"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/quuran" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Do'a"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/date" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kalender"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/zakat" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zakat"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/drum" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adzan"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+        </GridLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_marginHorizontal="30dp"
+            android:layout_gravity="center"
+            android:elevation="2dp"
+            app:cardCornerRadius="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+    <TextView
+        android:background="#ffffff"
+android:paddingTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu puasa besok"
+        android:textColor="#000000"/>
+            </LinearLayout>
+        <GridLayout
+
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+
+            android:layout_gravity="center"
+            android:paddingHorizontal="20dp"
+            android:columnCount="2">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Imsyak" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+                <TextView
+
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="04:25" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+                <TextView
+
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fajr" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+                <TextView
+
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="04:35" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+                <TextView
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Iftar" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+                <TextView
+
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17:48" />
+            </LinearLayout>
+
+
+
+
+        </GridLayout>
+
+            <View
+
+                android:paddingTop="10dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#2C2C2C"
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="120dp"/>
+            <TextView
+                android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingStart="20dp"
+            android:text="Lihat Lebih Lanjut"
+            android:textColor="#000000" />
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="end"
+                android:paddingRight="20dp"
+                android:text="Bagikan"
+                android:textColor="#000000" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_marginHorizontal="30dp"
+            android:layout_gravity="center"
+            android:elevation="2dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                android:background="#ffffff"
+                android:paddingTop="10dp"
+                android:layout_marginStart="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waktu puasa besok"
+                android:textColor="#000000"/>
+                <TextView
+                    android:background="#ffffff"
+                    android:textSize="12sp"
+
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Katakanlah, Berjalanlah diBUmi, maka perlihatkanlah bagaimana(Allah) memulai penciptaan (Makhluk),kemudian Allah menjadikan kejadian yang akhir.Sngguh,Allah Mahakuasa atas segalanya"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+
+
+
+            <View
+
+                android:paddingTop="20dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#2C2C2C"
+                android:layout_marginTop="110dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingStart="20dp"
+                android:text="Lihat Lebih Lanjut"
+                android:textColor="#000000" />
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="end"
+                android:paddingRight="20dp"
+                android:text="Bagikan"
+                android:textColor="#000000" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+
+        android:orientation="vertical">
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
